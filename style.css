@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, sans-serif, roboto;	
+}
+
+input {
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+input:focus {
+	border-radius: 25px;
+	/* outline-width: 0; */
+	outline: none;
+	padding-left: 10px;
+	background: rgba(25, 25, 25, 0.2);
+	color: white;
+}
+
+.enter_numbers {
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%, -50%);
+	width: 400px; 
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.7);
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.selec {
+	padding: 5px;
+	margin-bottom: 80px;
+}
+
+.final_result {
+	margin: 10px;
+}
+

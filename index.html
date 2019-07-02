@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Arithmetic Operations in Javascript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+              
+    </head>
+    <body>
+    <div class="enter_numbers">
+        <label>Enter your first number: </label>
+        <input type="text" id="number1"/><br/><br/>
+        <label>Enter your second number: </label>
+        <input type="text" id="number2"/><br/><br/>
+    
+        <select class="selec" id="operators">
+            <option value="plus">SUM</option>
+            <option value="minus">SUBTRACTION</option>
+            <option value="division">DIVISION</option>
+            <option value="mult">MULTIPLICATION</option>
+        </select>
+
+          
+        <hr>
+        <button onclick="calculator()">Print Result: </button>
+        <input class="final_result" type="text" id="result"/>
+    </div> 
+    <script src="script.js"></script>   
+    </body>
+</html>
