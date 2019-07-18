@@ -3,3 +3,6 @@ Let's develop a Javascript Project where we will create a simple Javascript Calc
 
 Demo here:
 https://tbcodes.github.io/simple_Javascript_Calculator_with_GUI/
+
+Youtube Explanation (in spanish):
+https://www.youtube.com/watch?v=cUtNkDPpJ1U
